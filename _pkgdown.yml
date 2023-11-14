@@ -1,0 +1,66 @@
+url: https://ropensci.github.io/rb3/
+template:
+  params:
+    bootswatch: yeti
+
+reference:
+  - title: rb3 Package
+    contents:
+      - rb3-package
+
+  - title: Download and Read Marketdata
+    contents:
+      - read_marketdata
+      - download_marketdata
+      - convert_to
+
+  - title: Templates
+    contents:
+      - show_templates
+      - display_template
+
+  - title: Yield Curves
+    contents:
+      - yc_get
+
+  - title: COTAHIST datasets
+    contents:
+      - cotahist_get
+      - cotahist_equity_get
+
+  - title: Indexes
+    contents:
+      - index_get
+      - indexes_get
+      - indexes_last_update
+      - index_comp_get
+      - index_weights_get
+      - index_by_segment_get
+      - indexreport_get
+
+  - title: Companies
+    contents:
+      - company_cash_dividends_get
+      - company_info_get
+      - company_stock_dividends_get
+      - company_subscriptions_get
+
+  - title: Futures
+    contents:
+      - futures_get
+      - maturity2date
+      - code2month
+
+  - title: CDI rate and IDI index
+    contents:
+      - cdi_get
+
+  - title: Super datasets (mix datasets)
+    contents:
+      - yc_superset
+      - cotahist_equity_options_superset
+
+  - title: Cache
+    contents:
+      - cachedir
+      - clearcache
